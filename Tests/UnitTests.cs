@@ -34,9 +34,9 @@ namespace TravisCILab
         [Test]
         public void Pow_Valid()
         {
-            Assert.AreEqual(3, Program.Power("1", "2"));
-            Assert.AreEqual(5, Program.Power("3", "2"));
-            Assert.AreEqual(12, Program.Power("5", "7"));
+            Assert.AreEqual(1, Program.Power("1", "2"));
+            Assert.AreEqual(9, Program.Power("3", "2"));
+            Assert.AreEqual(8, Program.Power("2", "3"));
         }
 
         [Test]
